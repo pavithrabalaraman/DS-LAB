@@ -7,7 +7,6 @@ struct Stack {
 int arr[MAX];
 int top;
 };
-
 void initializeStack(struct Stack *stack);
 int isFull(struct Stack *stack);
 int isEmpty(struct Stack *stack);
